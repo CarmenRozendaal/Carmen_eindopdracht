@@ -5,6 +5,20 @@ body{
     margin:0;
   }
 
+  image{
+    weight: 147px;
+    height: 100px;
+    display: flex center;
+  }
+
+
+  section{
+    background-image: src="images/Yoga_group_lesson.jpg" alt="Een mediterende groep mensen tijdens yogales"/>;
+    height: 400px;
+    weight: 200px;
+    background position: center;
+  }
+
   /* header */
   header{
     background-color: rgb(88, 45, 156);
@@ -19,7 +33,7 @@ body{
     text-align:center;
   }
 
-  header h5{
+  header p{
     color: rgb(225, 197, 197);
     margin:0;
     padding:0;
@@ -54,10 +68,6 @@ body{
   }
 
    /* content */
-  image{
-    position: center;
-  }
-
   h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:20px;
