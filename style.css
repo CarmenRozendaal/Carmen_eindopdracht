@@ -1,23 +1,23 @@
-body{
+body {
     font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
     font-size:1.5em;
     margin:0;
   }
 
   /* header */
-  header{
+  header {
     background-color: rgb(45, 76, 156);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
   }
 
-  #icon-img{
-    height: 50px;
+  #icon-img {
+    width: 60px;
     margin: 15px 0px -5px 0px;
     text-align: center;
   }
   
-  header h1{
+  header h1 {
     color:#fff;
     margin:0;
     padding:1px;
@@ -25,7 +25,7 @@ body{
     text-align:center;
   }
 
-  header p{
+  header p {
     color: rgb(238, 227, 227);
     margin:0;
     padding:0px;
@@ -34,11 +34,11 @@ body{
   }
 
   /* nav */
-  nav{
+  nav {
     background-color: white;
   }
   
-  nav ul{
+  nav ul {
     background-color:rgb(23, 14, 80);
     list-style:none;
     padding:0.7em;
@@ -46,13 +46,13 @@ body{
     justify-content:center;
   }
   
-  nav ul li{
+  nav ul li {
     margin:0em;
-    padding:0em 0em;
+    padding:0em;
     justify-items: center;
   }
   
-  nav ul li a{
+  nav ul li a {
     font-family:verdana;
     color:#fff;
     text-decoration: none;
@@ -67,34 +67,34 @@ body{
     color:rgb(70, 106, 197);
   }
 
-  /* content */
+  /* content home */
   #fullwidth-img {
-    height: 650px;
+    height: 700px;
     width: 100%;
     display: flex;
-    margin: auto;
+    margin: 0 auto;
     justify-items: center;
     object-fit: cover;
   }
 
-  #balkkop {
+  #home h2 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 23px;
     font-weight: normal;
     text-align: center;
     color: white;
     background-color: rgb(45, 76, 156);
-    width: auto;
-    height: auto;
-    margin: auto;
+    margin: 0 auto;
     padding: 5px;
   }
 
-  p{
+  #home p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
     font-size: 16pt;
     text-align: center;
-    margin: 40px 60px 30px 60px;
+    display: flex;
+    margin: 2em 4em 2em 4em;
   }
 
   #images {
@@ -106,47 +106,107 @@ body{
     margin: 20px 30px 30px 20px;
   }
 
-  /* kinderyoga */
-  #kinderyoga.left {
+  #kinderyoga {
     float: left;
     width: 400px;
     height:400px;
-    margin: 0px 30px 50px; 
+    margin: 1em 2em 1em 2em; 
     border: 3px solid rgb(45, 76, 156);
   }
 
-  #text p {
-    color:black;
+  .subtekst > p {
+    color:blue;
     text-align: left;
     width: 90%;
     margin: 80px 5px 70px 20px;
     padding: 4px;
   }
 
+  a {
+    color: red;
+  }
+
   /* tips */
-  h2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
+  #fullwidth-img {
+    height: 650px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-items: center;
+    object-fit: cover;
+  }
+
+  #thuis h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+    background-color: rgb(45, 76, 156);
+    margin: 0 auto;
+  }
+
+
+  #thuis h3 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
     font-weight: bold;
     text-align: left;
     color: rgb(45, 76, 156);
-    margin: 0px 60px 30px 60px;
+    margin: 1em 2em 0em 6em;
+    padding: 0em;
   }
 
-  #couple-img {
+  #thuis p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+    color: black;
+    margin: 1.5em 10em 0em 6em;
+    padding: 0em;
+  }
+
+  #thuis ul li {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+    color: black;
+    margin: 0.5em 10em 0.5em 6em;
+    padding: 0em;
+  }
+
+  .couple-img {
     float: right;
-    width: 400px;
-    height: 500px;
-    margin: 0px 70px 50px 30px; 
+    width: 30%;
+    margin: 2em 6em 6em 5em; 
     border: 3px solid rgb(45, 76, 156);
+  }
+
+  #thuis ol li {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+    color: black;
+    margin: 0.5em 10em 0.5em 6em;
+    padding: 0em;
   }
 
   /* footer */ 
   footer {
     clear: both;
     position: relative;
-    height: 40px;
+    height: 50px;
     margin: auto;
     background-color: rgb(45, 76, 156);
+  }
+
+  footer p {
     color: white;
-}
+    font-size: 15pt;
+    text-align: center;
+    padding-top: 0.5em;
+    
+  }
