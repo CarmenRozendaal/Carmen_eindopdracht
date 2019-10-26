@@ -2,11 +2,12 @@ body {
     font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
     font-size:1.5em;
     margin:0;
+    background-color: rgb(255, 255, 255);
   }
 
   /* header */
   header {
-    background-color: rgb(45, 76, 156);
+    background-color: rgb(45, 152, 156);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
   }
@@ -39,7 +40,7 @@ body {
   }
   
   nav ul {
-    background-color:rgb(23, 14, 80);
+    background-color:rgb(50, 90, 95);
     list-style:none;
     padding:0.7em;
     display:flex;
@@ -60,11 +61,11 @@ body {
   }
 
   nav ul li a:hover {
-    color:rgb(70, 106, 197);
+    color:rgb(45, 152, 156);
   }
 
   #visited {
-    color:rgb(70, 106, 197);
+    color:rgb(45, 152, 156);
   }
 
   /* content home */
@@ -83,7 +84,7 @@ body {
     font-weight: normal;
     text-align: center;
     color: white;
-    background-color: rgb(45, 76, 156);
+    background-color: rgb(45, 152, 156);
     margin: 0 auto;
     padding: 0.5em;
   }
@@ -102,10 +103,9 @@ body {
 
   #images img {
     width: 300px;
-    margin: 20px 30px 30px 20px;
+    margin: 1em 1.5em 1em 1.5em;
   }
 
-  
   .background-quote img {
     background-image: url(images/wolk.jpeg);
     background-position: center;
@@ -115,18 +115,18 @@ body {
     height: 300px;
     position: relative;
     display: flex;
-    text-align: center;
   }
 
-  .background-quote h4 {
+  h4 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     font-size: 15pt;
     text-align: center;
     display: flex;
-    margin: 3em 6em;
     position: absolute;
-    z-index: 2;
+    z-index: 1;
+    padding: 1em 6em 4em 6em;
+    word-spacing: 0.1em;
   }
 
   /* content thuis */
@@ -145,7 +145,7 @@ body {
     font-weight: normal;
     text-align: center;
     color: white;
-    background-color: rgb(45, 76, 156);
+    background-color: rgb(50, 90, 95);
     margin: 0 auto;
     padding: 0.5em;
   }
@@ -155,7 +155,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     text-align: left;
-    color: rgb(45, 76, 156);
+    color: rgb(50, 90, 95);
     margin: 1em 5em 0em 5em;
     padding: 0em;
   }
@@ -199,31 +199,31 @@ body {
   }
 
   #berghouding {
-    width: 80%;
+    width: 60%;
     display: flex;
     margin: 1em 0em;
   }
 
   #tang {
-    width: 80%;
+    width: 60%;
     display: flex;
     margin: 1em 0em;
   }
 
   #plank {
-    width: 80%;
+    width: 60%;
     display: flex;
     margin: 1em 0em;
   }
 
   #cobra {
-    width: 80%;
+    width: 60%;
     display: flex;
     margin: 1em 0em;
   }
 
   #hond {
-    width: 80%;
+    width: 60%;
     display: flex;
     margin: 1em 0em;
   }
@@ -236,6 +236,18 @@ body {
     color: black;
     margin: 1.5em 5em 4em 5em;
     padding: 0em;
+  }
+
+  a#button {
+    position: fixed;
+    bottom: 50px;
+    width: 80px;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    background-color: rgb(45, 152, 156);
+    padding: 1em 0.5em;
   }
 
   /* content groepslessen */
@@ -254,7 +266,7 @@ body {
     font-weight: normal;
     text-align: center;
     color: white;
-    background-color: rgb(45, 76, 156);
+    background-color: rgb(50, 90, 95);
     margin: 0 auto;
     padding: 0.5em;
   }
@@ -271,7 +283,8 @@ body {
 
   table, th, td {
     width: 50%;
-    border: 1px solid rgb(45, 76, 156);
+    border: 2px solid rgb(45, 152, 156);
+    background-color: white;
     border-collapse: collapse;
     margin: 2em auto;
   }
@@ -293,7 +306,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     text-align: left;
-    color: rgb(45, 76, 156);
+    color: rgb(50, 90, 95);
     margin: 1em 5em 0em 5em;
     padding: 0em;
   }
@@ -303,7 +316,7 @@ body {
     width: 400px;
     height: 400px;
     margin: 2em 2em; 
-    border: 3px solid rgb(45, 76, 156);
+    border: 3px solid rgb(45, 152, 156);
   }
 
   .link {
@@ -313,7 +326,7 @@ body {
   }
 
   .link:hover {
-    color:  rgb(38, 78, 179);
+    color:  rgb(45, 152, 156);
   }
 
   p#text-left {
@@ -324,6 +337,44 @@ body {
     margin: 4em 4em 4em 3em;
   }
 
+  /* content contact */
+  .background-image img {
+    background-image: url(images/Contact-telefoon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    margin: 0em 0em 1em 0em;
+    position: relative;
+    display: flex;
+  }
+
+  h5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(50, 90, 95);
+    background-color: rgb(213, 228, 225);
+    font-size: 15pt;
+    text-align: left;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    padding: 1em 6em 1em 6em;
+    word-spacing: 0.1em;
+  }
+
+  #contact a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(50, 90, 95);
+    background-color: rgb(213, 228, 225);
+    font-size: 15pt;
+    text-align: left;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    margin: 5em auto;
+    padding: 0.5em 6em;
+  }
 
   /* footer */ 
   footer {
@@ -331,7 +382,7 @@ body {
     position: relative;
     height: 50px;
     margin: auto;
-    background-color: rgb(45, 76, 156);
+    background-color: rgb(45, 152, 156);
   }
 
   footer p {
